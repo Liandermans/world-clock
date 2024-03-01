@@ -1,0 +1,10 @@
+select {
+  display: block;
+  margin: 30px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  font-size: x-large;
+  font-weight: bolder;
+  border-radius: 10px;
+  color: royalblue;
+}
