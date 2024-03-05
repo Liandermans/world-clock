@@ -5,10 +5,19 @@
   --fourth-color: #f7e9e3;
 }
 
-body {
+h1 {
+  color: var(--first-color);
+}
+
+footer {
   text-align: center;
 }
 
-h1 {
-  color: var(--first-color);
+.body {
+  text-align: center;
+}
+
+.clock {
+  display: flex;
+  justify-content: space-evenly;
 }
