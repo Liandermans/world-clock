@@ -1,10 +1,14 @@
-select {
-  display: block;
-  margin: 30px;
-  font-family: "Courier New", Courier, monospace;
-  padding: 10px;
-  font-size: x-large;
-  font-weight: bolder;
-  border-radius: 10px;
-  color: royalblue;
+:root {
+  --first-color: #20716a;
+  --second-color: #23a393;
+  --third-color: #ffc0c2;
+  --fourth-color: #f7e9e3;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color: var(--first-color);
 }
