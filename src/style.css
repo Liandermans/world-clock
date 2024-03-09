@@ -25,13 +25,13 @@ hr {
 footer {
   text-align: center;
   font-family: monospace;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   color: var(--fourth-color);
 }
 
 .body {
   display: block;
-  margin: 50px auto 10px;
+  margin: 100px auto 10px;
   max-width: 600px;
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -53,12 +53,13 @@ footer {
   font-size: 35px;
 }
 
-.clock {
-  display: flex;
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: space-around;
 }
 
-.clock span {
+.wrapper span {
   font-size: 15px;
   opacity: 0.8;
 }
