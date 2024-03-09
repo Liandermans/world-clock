@@ -65,6 +65,10 @@ select {
   font-size: 15px;
   opacity: 0.8;
 }
+.back {
+  text-align: start;
+  margin-top: 20px;
+}
 
 footer {
   text-align: center;
