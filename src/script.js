@@ -8,6 +8,15 @@ function updateTime() {
     "[<h2>]h:mm:ss [<small>]A[</small>][</h2>]"
   );
 
+  let parisElement = document.querySelector("#paris");
+  let parisDateElement = parisElement.querySelector(".date");
+  let parisTimeElement = parisElement.querySelector(".time");
+  parisTime = moment.tz("Europe/Paris");
+  parisDateElement.innerHTML = parisTime.format("MMMM Do YYYY");
+  parisTimeElement.innerHTML = parisTime.format(
+    "[<h2>]h:mm:ss [<small>]A[</small>][</h2>]"
+  );
+
   let sydneyElement = document.querySelector("#sydney");
   let sydneyDateElement = sydneyElement.querySelector(".date");
   let sydneyTimeElement = sydneyElement.querySelector(".time");
@@ -40,7 +49,7 @@ function updateCity(event) {
   )}</small></h2>
           </div>
         </div><div class="back">
-        <a href="/" class="back">Back</a>
+        <a href="/" class="back">Back to start</a>
       </div>`;
 }
 
